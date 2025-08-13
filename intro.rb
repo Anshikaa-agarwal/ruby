@@ -35,9 +35,15 @@ name_age = {"a" => 20, "b" => 30, "c" => 14, "d" => 17,};
 name_age.each do |k, v|
   puts "Name: #{k}, age: #{v}"
 end
+newHash = Hash.new(1000000)
+puts newHash[0]
+
+print name_age
 
 ## array
 arr = [1, "string", 4.9, true, {"key1" => "value1", "key2" => "value2"}]
+arrString = %w{apple banana cherry dragon-fruit}
+puts "Array of strings with %w: #{arrString.inspect}" 
 arr.each do |i|
   puts i
 end
