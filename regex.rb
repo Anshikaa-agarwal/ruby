@@ -1,0 +1,2 @@
+# basics
+puts ("hello" =~ /el/)
