@@ -40,4 +40,4 @@ class Series
 end
 
 s1 = Series.new
-s1.fibonacci
+s1.fibonacci{ |a| print "#{a} " }
